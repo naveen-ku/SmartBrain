@@ -4,21 +4,22 @@ face_detection_api/node_modules
 
 
 face_detection_frontend/node_modules
-ce_detection_frontend/.pnp
-ce_detection_frontend/.pnp.js
+face_detection_frontend/.pnp.js
+face_detection_frontend/.pnp
+face_detection_frontend/src/configurations
 # testing
-ce_detection_frontend/coverage
+face_detection_frontend/coverage
 
 # production
-ce_detection_frontend/build
+face_detection_frontend/build
 
-ce_detection_frontend/# misc
-ce_detection_frontend/.DS_Store
-ce_detection_frontend/.env.local
-ce_detection_frontend/.env.development.local
-ce_detection_frontend/.env.test.local
-ce_detection_frontend/.env.production.local
+face_detection_frontend/# misc
+face_detection_frontend/.DS_Store
+face_detection_frontend/.env.local
+face_detection_frontend/.env.development.local
+face_detection_frontend/.env.test.local
+face_detection_frontend/.env.production.local
 
-ce_detection_frontend/npm-debug.log*
-ce_detection_frontend/yarn-debug.log*
-ce_detection_frontend/yarn-error.log*
+face_detection_frontend/npm-debug.log*
+face_detection_frontend/yarn-debug.log*
+face_detection_frontend/yarn-error.log*
