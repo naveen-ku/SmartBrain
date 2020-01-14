@@ -81,10 +81,11 @@ app.put('/image', (req, res) => {
         user.entries++
         return res.json(user.entries);
       }
-    });
-    if(!found) {
+      if(!found) {
         res.status(400).json('not found');
     }
+    });
+    
 })
 
 const PORT = 5000;
