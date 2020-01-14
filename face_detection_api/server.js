@@ -1,8 +1,11 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const bcrypt = require('bcrypt-nodejs');
-
+const cors = require('cors')
 const app = express();
+
+
+app.use(cors())
 app.use(bodyParser.json());
 
 const database = {
@@ -85,23 +88,7 @@ app.put('/image', (req, res) => {
     }
 })
 
-
-bcrypt.hash("bacon", null, null, function(err, hash) {
-    // Store hash in your password DB.
-});
-
-// Load hash from your password DB.
-bcrypt.compare("bacon", hash, function(err, res) {
-    // res == true
-});
-bcrypt.compare("veggies", hash, function(err, res) {
-    // res = false
-});
-
-
-
-
-const PORT = 3000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`App is running on port ${PORT}`);
 });
