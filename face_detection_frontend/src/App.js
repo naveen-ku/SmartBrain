@@ -100,7 +100,7 @@ class App extends Component {
             .then(response => response.json())
             .then(count => {
               this.setState(Object.assign(this.state.user, { entries: count }));
-              console.log(this.state)
+              console.log(this.state);
             });
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
@@ -141,7 +141,7 @@ class App extends Component {
             />
           </div>
         ) : this.state.route === "signin" ? (
-          <SignIn onRouteChange={this.onRouteChange} />
+          <SignIn loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
         ) : (
           <Register
             loadUser={this.loadUser}

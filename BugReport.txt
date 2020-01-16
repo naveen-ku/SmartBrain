@@ -1,2 +1,2 @@
-+ User name is not displaying.
-+ Count becomes "not found".
++ User name is not displaying.          - Fixed
++ Count becomes "not found".            - Fixed

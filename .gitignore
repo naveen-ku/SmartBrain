@@ -1,7 +1,8 @@
 face_detection_api/node_modules
-
+face_detection_api/config.js
 .gitignore
 
+.vscode
 
 face_detection_frontend/node_modules
 face_detection_frontend/.pnp.js
