@@ -23,7 +23,7 @@ If you want to contribute and improve the project, follow the steps given below 
     __NOW__\
      > cd face_detection_api\
      > npm install\
-     > npm start\
+     > npm start
 
 ### Remember :-
 + The project uses __CLARIFAI API__, so you need to configure or add a api key by yourself.
